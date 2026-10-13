@@ -1,5 +1,1105 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+
+}
+
+/* here is top navbar section */
+
+.navbar .top-div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(225, 229, 233);
+    height: 40px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.top-div .top-icon {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(99, 96, 96)
+}
+
+/* secont top navbar section */
+
+.navbar .second-top {
+    display: flex;
+    height: 60px;
+    width: 100%;
+
+    padding: 20px 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-top .para {
+    color: rgb(16, 162, 220);
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.second-top .bar-icon {
+    background-color: rgb(239, 235, 235);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second-top .mega {
+    height: 35px;
+    width: 350px;
+    /* border: 2px solid black; */
+    background-color: rgb(239, 242, 243);
+    border-radius: 7px;
+    justify-content: space-between;
+    padding: 7px;
+    gap: 10px;
+    margin-top: 4px;
+
+}
+
+.mega .search-bar {
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.mega .bar {
+    margin-left: 20px;
+
+}
+
+.signin .sign {
+    color: rgba(61, 60, 60, 0.888);
+    font-size: 17px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.signin p {
+
+    margin-top: 10px;
+}
+
+p .log {
+    font-size: 20px;
+}
+
+.second-top .troly {
+    color: rgba(61, 60, 60, 0.888);
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.second-top .seond-container {
+    gap: 50px;
+    display: flex;
+}
+
+
+/* herosection*/
+.hero {
+    height: 60px;
+    width: 100%;
+    border: 1px solid gray;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 8px;
+    margin-top: 100px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+
+}
+
+.hero .item {
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(239, 242, 243);
+    cursor: pointer;
+    transition: ease .3s;
+}
+
+.hero .item:hover {
+    background-color: rgb(16, 162, 220);
+
+}
+
+.hero .item-para {
+    color: black;
+}
+
+.hero .item-para:hover {
+    color: white;
+}
+
+
+/* main part style  */
+
+h3 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 350px;
+    gap: 8px;
+    color: rgba(61, 60, 60, 0.888);
+    font-size: 20px;
+    display: flex;
+}
+
+h3 .color-p {
+    color: rgb(16, 162, 220);
+
+}
+
+.main-container {
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 180px;
+}
+
+.main-container .image {
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* here is my section styling section 1 */
+
+
+.section-1 {
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    gap: 31px;
+}
+
+.section-1 .phone {
+    height: 250px;
+    width: 99%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: rgb(239, 242, 243);
+    cursor: pointer;
+
+}
+
+.section-1 .phone:hover {
+    border: 2px solid white;
+}
+
+.phone .side {
+    height: 70px;
+    width: 65px;
+    /* border: 2px solid black; */
+    margin-left: 135px;
+    border-radius: 0px 10px 0px 10px;
+    background-color: rgb(16, 162, 220);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.side .offer {
+    color: white;
+}
+
+.phone .phone-img {
+    height: 130px;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 30px;
+    /* border: 2px solid black; */
+}
+
+.phone-img img {
+    height: 100%;
+    width: 110px;
+
+}
+
+.phone .data {
+    height: 95px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    border: .3px solid rgb(227, 219, 219);
+    padding: 5px;
+}
+
+.data .value {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.data .save {
+    color: rgb(54, 177, 54);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+/* here is my section 2 */
+
+
+.section-2 {
+    height: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 60px;
+}
+
+.section-2 h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+}
+
+h3 .color {
+    color: rgb(16, 162, 220);
+}
+
+.section-2 .products-div {
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-div .products {
+    height: 200px;
+    width: 190px;
+    /* border: 2px solid black; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.products .img-cont {
+    height: 130px;
+    width: 130px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(239, 242, 243);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.products .img-cont:hover {
+    border: 2px solid rgb(16, 162, 220);
+}
+
+.img-cont .img {
+   height: 100px;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 900;
+
+}
+
+/* here is my section 3 css */
+
+.section-3 {
+    height: 320px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+}
+
+.section-3 p {
+    color: rgb(16, 162, 220);
+}
+
+.section-3 .brand {
+    height: 250px;
+    width: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand img {
+    height: 260px;
+    width: auto;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.brand img:hover {
+    border: solid 2px white;
+}
+
+.section-4 {
+    height: auto;
+    width: 100%;
+    /* border: solid 2px black; */
+}
+
+.section-4 p {
+    color: rgb(16, 162, 220);
+}
+
+.item-container {
+    height: 300px;
+    width: 100%;
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.items {
+    height: 250px;
+    width: 200px;
+    /* border: solid 2px black; */
+    text-align: center;
+
+
+}
+
+.item-div {
+    height: 200px;
+    width: 100%;
+    /* border: solid 2px black; */
+    border-radius: 10px;
+    background-color: rgb(239, 242, 243);
+    cursor: pointer;
+}
+
+.item-div:hover {
+    border: solid 2px rgb(16, 162, 220);
+}
+
+.items .item-value {
+    color: black;
+}
+
+.items .Offers {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.item-div img {
+    height: 210px;
+    width: 190px;
+}
+
+/* here is my footer section */
+
+footer {
+    background-color: rgb(16, 162, 220);
+    width: 100%;
+    height: 550px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+
+.footer-container {
+    /* border: 2px solid black; */
+    display: flex;
+    height: 400px;
+    width: 100%;
+
+}
+
+.footer-container h1 {
+    font-size: 45px;
+}
+
+.footer-div {
+    height: 400px;
+    width: 35%;
+    /* border: 2px solid black; */
+
+}
+
+.footer-container p {
+    color: white;
+    font-size: 17px;
+}
+
+.footerlist-1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-cont {
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.img-cont img {
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer-div .list-conttent {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.line {
+    border: 2px solid white;
+    width: 215px;
+}
+
+.line-2 {
+    border: 2px solid white;
+    width: 155px;
+}
+
+.item_list {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+/* here end the footer div */
+
+.line-3 {
+    border: 1px solid rgb(190, 183, 183);
+    width: 100%;
+    margin-top: 40px;
+}
+
+.last-end {
+    /* border: 1px solid rgb(190, 183, 183); */
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.last-end .last-color {
+    color: white;
+    font-size: larger;
+}
+
+/* its make the mobile responssive */
+@media (max-width:576px) {
+   
+  
+   .top-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 8px 10px;
+        margin-left: -70px;
+       
+    }
+
+    .top-div > p {
+        font-size: 9px;
+        white-space: nowrap;
+
+    }
+
+    .top-icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        gap: 0px;
+    }
+   .top-div hr{
+        margin-left: -40px;
+        display: none;
+      
+    }
+
+    .top-icon p {
+        font-size: 8px;
+        white-space: nowrap;
+        gap: 2px;
+    }
+
+    .top-icon i {
+        font-size: 9px;
+    }
+
+    .top-icon hr {
+        height: 12px;
+        flex-shrink: 0;   /*ok*/
+    }
+/* //////////////////////////////////////////////////////////////////////////// */
+    .navbar .second-top {
+        display: flex;
+        height: 20px;
+        /* border: 2px solid black; */
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        /* justify-content: space-between; */
+        gap: 24px;
+        justify-content: space-around;
+    }
+
+    .second-top .para {
+        font-size: 20px;
+        display: flex;
+    }
+
+    .seond-container .mega {
+        height: 25px;
+        width: 100px;
+        border: 2px solid rgb(206, 186, 186);
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .mega .bar {
+        display: none;
+    }
+
+    .mega .search-bar {
+        margin-left: -60px;
+
+    }
+
+    .mega p {
+        font-size: 12px;
+    }
+
+    .mega .remove {
+        display: none;
+    }
+
+    .seond-container .sign {
+        font-size: 10px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: -90px;
+        /* background-color: brown; */
+       
+    }
+
+    .troly {
+        display: none;
+    }
+    .main-container{
+        margin-top: -100px;
+        background-color: aquamarine;
+    }
+   
+    /* //////////////////////////////////////////////////////////// */
+ 
+    .hero {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background: #1f2023;
+        box-sizing: border-box;
+        margin-top: 80px;
+        position: fixed;
+    }
+
+    /* Dropdown trigger */
+    .hero .item:first-child {
+        display: block;
+        width: 85%;
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 10px 12px;
+        background: #303136;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .hero .item:first-child .item-para {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .hero .item:first-child .arrow {
+        color: rgb(16, 162, 220) !important;
+    }
+
+    /* Hide other items by default */
+    .hero .item:not(:first-child) {
+        display: none;
+    }
+
+    /* Display items when dropdown is opened */
+    .hero.open .item:not(:first-child) {
+        display: block;
+        width: 85%;
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 8px 12px;
+        background: #303136;
+        border-top: 1px solid #45464b;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .hero.open .item:not(:first-child) .item-para {
+        margin: 0;
+        padding: 4px 0;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .hero .item:not(:first-child) i {
+        color: rgb(16, 162, 220) !important;
+        margin-left: 5px;
+    }
+
+
+  
+    /* ////////////////////////////////////////////////////////// */
+
+
+    /* here is my main part */
+    .main-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: -60px;
+        background-color: aquamarine;
+       
+    }
+
+    .main-container .image {
+       height: auto;
+       width: 100%;
+       margin-top: 200px;
+    }
+
+    .section-1 {
+        height: 300px;
+        width: 100%;
+        /* border: 2px solid black; */
+        margin-top: 30px;
+        display: flex;
+        gap: 31px;
+    }
+
+    /*  */
+    .section-1 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        width: 100%;
+        height: auto;
+    }
+
+    .section-1 .phone {
+        width: 100%;
+        height: 230px;
+        min-width: 0;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    /* Discount label */
+    .phone .side {
+        width: 48px;
+        height: 45px;
+        margin-left: auto;
+        padding: 5px 2px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .side .offer {
+        font-size: 12px;
+    }
+
+    /* Phone image */
+    .phone .phone-img {
+        width: 100%;
+        height: 115px;
+        margin: -25px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone-img img {
+        width: auto;
+        max-width: 90%;
+        height: 100%;
+        object-fit: contain;
+        margin-left: -25px;
+    }
+
+    /* Product details */
+    .phone .data {
+        width: 100%;
+        height: 95px;
+        margin-top: 0;
+        padding: 6px;
+        overflow: hidden;
+    }
+
+    .data .value {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .phone .data>br {
+        display: none;
+    }
+
+    .data .save {
+        font-size: 11px;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .section-2 .products-div {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px 12px;
+        width: 100%;
+        height: auto;
+    }
+
+    .products-div .products {
+        width: 100%;
+        height: auto;
+        min-width: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /* Circular image container */
+    .products .img-cont {
+        width: 110px;
+        height: 110px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: rgb(239, 242, 243);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Product image */
+    .products .img-cont img {
+        width: 100%;
+        max-width: 85px;
+        height: 85px;
+        object-fit: contain;
+    }
+
+    /* Product name */
+    .products h4 {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+
+    /* here is section -3 */
+    .section-3 {
+        width: 100%;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    /* Section heading */
+    .section-3 h3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .section-3 h3 p {
+        color: rgb(16, 162, 220);
+        font-size: 18px;
+    }
+
+    /* Brand image container */
+    .section-3 .brand {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    /* Individual brand images */
+    .brand img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        object-fit: contain;
+    }
+
+    /* section 4 */
+    .section-4 {
+        width: 100%;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    /* Section heading */
+    .section-4 h3 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .section-4 h3 p {
+        color: rgb(16, 162, 220);
+        font-size: 18px;
+    }
+
+    /* Items grid */
+    .section-4 .item-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px 12px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    /* Individual item */
+    .item-container .items {
+        width: 100%;
+        height: auto;
+        min-width: 0;
+        text-align: center;
+    }
+
+    /* Image background */
+    .items .item-div {
+        width: 100%;
+        height: 145px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: rgb(239, 242, 243);
+    }
+
+    /* Product image */
+    .item-div img {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    /* Product name */
+    .items .item-value {
+        color: black;
+        font-size: 13px;
+        margin-top: 8px;
+        line-height: 1.4;
+    }
+
+    /* Discount offer */
+    .items .Offers {
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    /* here is my footer part */
+    footer {
+        width: 100%;
+        height: auto;
+        padding: 25px 15px;
+        background-color: rgb(16, 162, 220);
+        overflow: hidden;
+        margin-top: -25px;
+    }
+
+    /* Footer main container */
+    .footer-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Each footer section */
+    .footer-div {
+        width: 100%;
+        height: auto;
+        min-width: 0;
+    }
+
+    /* MegaMart heading */
+    .footer-container h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    /* Footer paragraphs */
+    .footer-container p {
+        color: white;
+        font-size: 14px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    /* Contact details */
+    .footerlist-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .footerlist-1 p {
+        font-size: 14px;
+    }
+
+    /* Download app section */
+    .footer-div .img-cont {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .footer-div .img-cont p {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .footer-div .img-cont img {
+        width: auto;
+        max-width: 48%;
+        height: auto;
+        max-height: 45px;
+        object-fit: contain;
+        margin: 5px 5px 0 0;
+    }
+
+    /* Footer section headings */
+    .footer-div .list-conttent {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    /* Horizontal lines */
+    .footer-div .line,
+    .footer-div .line-2 {
+        width: 100%;
+        max-width: 250px;
+        border: 1px solid white;
+    }
+
+    /* Footer links */
+    .footer-div .item_list {
+        margin: 15px 0 0 20px;
+        padding-left: 5px;
+        font-size: 14px;
+        line-height: 2.2;
+        overflow-wrap: anywhere;
+    }
+
+    .footer-div .item_list li {
+        padding-right: 5px;
+    }
+
+    /* Bottom copyright separator */
+    .line-3 {
+        width: 100%;
+        margin-top: 25px;
+        border: 1px solid rgb(190, 183, 183);
+    }
+
+    .last-end {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .last-end .last-color {
+        color: white;
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
 }
